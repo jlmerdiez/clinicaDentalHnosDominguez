@@ -38,7 +38,7 @@
 					<nav>
 						<ul class="reset" role="navigation">
 							<li class="menu-item">
-								<a href="index.html">Inicio</a>
+								<a href="#">Inicio</a>
 							</li>
 							<li class="menu-item">
 								<a href="clinica.html">Clínica</a>
@@ -47,10 +47,10 @@
 								<a href="tratamientos.html">Tratamientos</a>
 							</li>
 							<li class="menu-item">
-								<a href="#equipo">Equipo</a>
+								<a href="equipo.html">Equipo</a>
 							</li>
 							<li class="menu-item">
-								<a href="#">Blog</a>
+								<a href="blog/index.php">Blog</a>
 							</li>
 							<li class="menu-item">
 								<a href="#contactar">Contactar</a>
@@ -98,7 +98,7 @@
 			</div><!-- intro-wrap -->
 			<!-- Fin - Carrusel de fotos -->
 			<div id="main">
-				<section class="row section">
+				<section id="contactar" class="row section">
 					<div class="row-content buffer even clear-after">
 						<div class="section-title"><h3>Contacte con nosotros</h3></div>
 						<p>Si tiene alguna duda o necesita consultarnos algo, reservar hora para su próxima cita o su primera visita, póngase en contacto con nosotros.</p>
@@ -108,47 +108,51 @@
 								<input class="name plain buffer" type="text" name="name" placeholder="Nombre y apellidos">
 								<span class="pre-input"><i class="icon icon-email"></i></span>
 								<input class="email plain buffer" type="email" name="email" placeholder="Dirección de correo electrónico">
-								<textarea class="plain buffer" name="message" placeholder="Indíquenos su conulta. No olvide que la amabilidad lo es todo."></textarea>
+								<textarea class="plain buffer" name="message" placeholder="Indíquenos su consulta. No olvide que la amabilidad lo es todo."></textarea>
 								<input id="send" class="plain button red" type="button" value="Enviar">
 							</form>
 							<div id="success"></div>
 						</div>
 						<div class="column four clear-after">
 							<div class="widget">
-								<h4>Dónde estamos</h4>
+								<h4><i class="fa fa-map-marker" aria-hidden="true"></i> Dónde estamos:</h4>
 								<p>
 									Calle Estambrera 5 - C<br>
-									(Bajo soportales - detrás de la Ludoteca La Comba)<br>
+									(Bajo soportales, detrás de la Ludoteca La Comba)<br>
 									26005 Logroño - La Rioja, España<br>
-									Telf. <b>941 501 968</b>
+									Telf. <b>+34 941 501 968</b>
 								</p>
 							</div>
 							<div class="widget">
-								<h4>Horario</h4>
+								<h4><i class="fa fa-clock-o" aria-hidden="true"></i> Horario:</h4>
 								<p>
 									<b>De Lunes a Viernes</b> de 09:00 a 21:00 h.<br>
 									<b>Sábados</b> de 09:00 a 14:00 h.
 								</p>
 							</div>
+							<div class="widget">
+								<h4><i class="fa fa-bus" aria-hidden="true"></i> Autobuses:</h4>
+								<ul>
+									<li>Línea 3: Las Norias - Villamediana</li>
+									<li>Línea B2: El Archo - La Estrella</li>
+								</ul>
+							</div>
 						</div>
 						<div class="column two last clear-after">
 							<div class="widget">
-								<h4>Redes sociales</h4>
+								<h4>Redes sociales:</h4>
 								<ul class="inline meta-social">
 									<li><a href="#" class="twitter-share border-box"><i class="fa fa-twitter fa-lg"></i></a></li>
 									<li><a href="#" class="facebook-share border-box"><i class="fa fa-facebook fa-lg"></i></a></li>
 									<li><a href="#" class="pinterest-share border-box"><i class="fa fa-pinterest fa-lg"></i></a></li>
 								</ul>
 							</div>
-							<div class="widget">
-								<h4>Acceso</h4>
-								<p><b><i class="icon icon-diamond"></i><i class="fa fa-bus"></i> Autobús</b> Línea x</p>
-							</div>
 						</div>
 					</div>
 				</section>
-				<section class="row section">
-					<div class="map" data-maplat="51.511214" data-maplon="-0.119824" data-mapzoom="15" data-color="" data-height="22.222" data-img="img/marker.png" data-info="I am based in London, UK"></div>
+				<section class="row">
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.6635099910004!2d-2.4405660849015227!3d42.45617507918052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5aab42b4280ccf%3A0x91edc90965f60193!2sCl%C3%ADnica+Dental+Hnos.+Dominguez+Aramendi!5e0!3m2!1ses!2ses!4v1508793291388" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+					</iframe>
 				</section>
 				<section class="row">
 					<div class="column half push-fourth reset">
@@ -166,29 +170,29 @@
 						<div class="widget column three"><!-- la class="widget" è forse generata utomaticamente da wp -->
 							<h4>Menú</h4>
 							<ul class="plain">
-								<li><a href="home-01.html">Home</a></li>
-								<li><a href="works-3-columns.html">Portfolio</a></li>
-								<li><a href="blog-4-columns-masonry.html">Blog</a></li>
-								<li><a href="resume.html">Resume</a></li>
-								<li><a href="file:///Users/pasqualevitiello/My%20Folder/Job/Envato/PR%20Themeforest/Flattie/Markup/Beetle/contact.html">Contact</a></li>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="clinica.html">Clínica</a></li>
+								<li><a href="tratamientos.html">Tratamientos</a></li>
+								<li><a href="equipo.html">Equipo</a></li>
+								<li><a href="blog/index.php">Blog</a></li>
 							</ul>
 						</div>
 						<div class="widget column three">
 							<h4>Archives</h4>
 							<ul class="plain">
-								<li><a href="#">March 2014</a></li>
-								<li><a href="#">April 2014</a></li>
-								<li><a href="#">May 2014</a></li>
-								<li><a href="#">June 2014</a></li>
-								<li><a href="#">July 2014</a></li>
+								<li><a href="#">March 2017</a></li>
+								<li><a href="#">April 2017</a></li>
+								<li><a href="#">May 2017</a></li>
+								<li><a href="#">June 2017</a></li>
+								<li><a href="#">July 2017</a></li>
 							</ul>
 						</div>
 						<div class="widget column three">
-							<h4>Widget</h4>
+							<h4>Otros</h4>
 							<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
 						</div>
 						<div class="widget meta-social column three">
-							<h4>Follow Us</h4>
+							<h4>Síguenos en:</h4>
 							<ul class="inline">
 								<li><a href="#" class="twitter-share border-box"><i class="fa fa-twitter fa-lg"></i></a></li>
 								<li><a href="#" class="facebook-share border-box"><i class="fa fa-facebook fa-lg"></i></a></li>
@@ -197,8 +201,7 @@
 						</div>
 					</section><!-- top-footer -->
 					<section id="bottom-footer">
-						<p class="keep-left">&copy; 2014 <a href="https://mokaine.com/" alt="Mokaine Lab">Mokaine</a>. All Rights Reserved.</p>
-						<p class="keep-right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+						<p class="keep-left">&copy; 2017 Clínica Dental Hnos. Domínguez Aramendi. Todos los derechos reservados.</p>
 					</section><!-- bottom-footer -->
 				</div><!-- row-content -->
 			</div><!-- row -->
