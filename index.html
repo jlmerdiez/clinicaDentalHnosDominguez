@@ -103,13 +103,20 @@
 						<div class="section-title"><h3>Contacte con nosotros</h3></div>
 						<p>Si tiene alguna duda o necesita consultarnos algo, reservar hora para su próxima cita o su primera visita, póngase en contacto con nosotros.</p>
 						<div class="column six">
-							<form id="contact-form" class="contact-section" method="post" action="">
+							<script>
+								var pre = '<form id="contact-form" class="contact-section" method="post" enctype="text/plain" action="mailto:';
+								var name = 'jlmerdiez';
+								var at = '@';
+								var domain = 'gmail.com';
+								var post = '">';
+								document.write(pre + name + at + domain + post);
+							</script>
 								<span class="pre-input"><i class="icon icon-user"></i></span>
-								<input class="name plain buffer" type="text" name="name" placeholder="Nombre y apellidos">
+								<input id="nombre" class="name plain buffer" type="text" name="nombre" placeholder="Nombre y apellidos" required>
 								<span class="pre-input"><i class="icon icon-email"></i></span>
-								<input class="email plain buffer" type="email" name="email" placeholder="Dirección de correo electrónico">
-								<textarea class="plain buffer" name="message" placeholder="Indíquenos su consulta. No olvide que la amabilidad lo es todo."></textarea>
-								<input id="send" class="plain button red" type="button" value="Enviar">
+								<input id="email" class="email plain buffer" type="email" name="email" placeholder="Dirección de correo electrónico" required>
+								<textarea id="mensaje" class="plain buffer" name="mensaje" placeholder="Indíquenos su consulta. No olvide que la amabilidad lo es todo." required></textarea>
+								<input id="send" class="plain button" type="submit" value="Enviar">
 							</form>
 							<div id="success"></div>
 						</div>
